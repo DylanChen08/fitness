@@ -163,6 +163,11 @@
 </script>
 
 <style>
+    .content {
+        background: url("../../static/img/wallhaven-0pzq7m.jpg") no-repeat;
+        background-size: cover;
+    }
+
     .action-row {
         display: flex;
         flex-direction: row;
@@ -170,7 +175,7 @@
     }
 
     .action-row navigator {
-        color: #007aff;
+        color: #666;
         padding: 0 10px;
     }
 
