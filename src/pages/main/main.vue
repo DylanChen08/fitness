@@ -18,12 +18,16 @@
         <!--                <view>在 “我的” 中点击 “登录” 可以 “登录您的账户”</view>-->
         <!--            </view>-->
         <!--        </view>-->
+        <!--广告轮播图-->
         <Ads></Ads>
+        <!--首页快速导航-->
+        <IndexQuickRedirection></IndexQuickRedirection>
     </view>
 </template>
 
 <script>
     import Ads from '../../pages/publicDisplay/ads'
+    import IndexQuickRedirection from "../publicDisplay/IndexQuickRedirection";
     import {
         mapState
     } from 'vuex'
@@ -31,7 +35,8 @@
     export default {
         computed: mapState(['forcedLogin', 'hasLogin', 'userName']),
         components: {
-            Ads
+            Ads,
+            IndexQuickRedirection
         },
         onLoad() {
             if (!this.hasLogin) {
