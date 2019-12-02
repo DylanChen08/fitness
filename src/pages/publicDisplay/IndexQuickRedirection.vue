@@ -50,6 +50,7 @@
         flex: 0 0 30%;
         display: flex;
         flex-direction: column;
+        background: rgb(254, 254, 254);
         margin: .25rem 0;
         padding: 1.5rem 0;
         text-align: center;
@@ -61,12 +62,10 @@
 
     .redirect-box > view > navigator > span {
         text-align: center;
-        /*border: 1px solid red;*/
     }
 
     .redirect-box > view > navigator > svg {
         width: 100%;
         text-align: center;
-        /*border: 1px solid red;*/
     }
 </style>
