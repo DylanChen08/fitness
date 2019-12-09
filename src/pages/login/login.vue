@@ -134,6 +134,7 @@
                                  * 服务端可以用 userInfo.openId 作为用户的唯一标识新增或绑定用户信息。
                                  */
                                 this.toMain(infoRes.userInfo.nickName);
+                                console.log(infoRes)
                             }
                         });
                     },

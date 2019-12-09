@@ -1,11 +1,32 @@
 <template>
     <view class="content">
-        <!--广告轮播图-->
-        <Ads></Ads>
-        <!--首页快速导航-->
-        <IndexQuickRedirection></IndexQuickRedirection>
-        <!--dashboard-->
-        <report></report>
+        <view v-if="hasLogin" class="hello">
+            <view class="title">
+                <el-alert
+                        title="登录成功"
+                        type="success"
+                        center
+                        show-icon>
+                    欢迎您, {{userName}}
+                </el-alert>
+                <!--广告轮播图-->
+                <Ads></Ads>
+                <!--首页快速导航-->
+                <IndexQuickRedirection></IndexQuickRedirection>
+                <!--dashboard-->
+                <report></report>
+            </view>
+        </view>
+        <view v-if="!hasLogin" class="hello">
+            <view class="title">
+                您好 游客。
+            </view>
+            <view class="ul">
+                <view>这是 uni-app 带登录模板的示例App首页。</view>
+                <view>在 “我的” 中点击 “登录” 可以 “登录您的账户”</view>
+            </view>
+        </view>
+
     </view>
 </template>
 
@@ -17,7 +38,12 @@
         mapState
     } from 'vuex'
 
+
     export default {
+        data() {
+            return {}
+        },
+
         computed: mapState(['forcedLogin', 'hasLogin', 'userName']),
         components: {
             Ads,

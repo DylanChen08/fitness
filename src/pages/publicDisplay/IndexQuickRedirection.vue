@@ -20,7 +20,7 @@
                     {id: 1, href: "#iconxindetihui", comment: "心得体会", url: "../login/login"},
                     {id: 2, href: "#iconkebiao", comment: "查看课表", url: "../login/login"},
                     {id: 3, href: "#iconicon-test", comment: "项目选择", url: "../login/login"},
-                    {id: 4, href: "#iconhebingxingzhuang", comment: "教练评分", url: "../login/login"},
+                    {id: 4, href: "#iconhebingxingzhuang", comment: "教练评分", url: "../coach/rateCoach"},
                     {id: 5, href: "#iconjiaolian", comment: "教练选择", url: "../login/login"},
                     {id: 6, href: "#iconyinshi-copy", comment: "饮食推荐", url: "../login/login"}
                 ]

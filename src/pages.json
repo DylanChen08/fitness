@@ -15,15 +15,23 @@
             "style": {
                 "navigationBarTitleText": "注册"
             }
-        }, {
+        },
+        {
             "path": "pages/pwd/pwd",
             "style": {
                 "navigationBarTitleText": "找回密码"
             }
-        }, {
+        },
+        {
             "path": "pages/user/user",
             "style": {
                 "navigationBarTitleText": "我的"
+            }
+        },
+        {
+            "path": "pages/coach/rateCoach",
+            "style": {
+                "navigationBarTitleText": "评分"
             }
         }
     ],
