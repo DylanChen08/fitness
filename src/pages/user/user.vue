@@ -1,19 +1,21 @@
 <template>
-    <view class="content">
-        <view class="btn-row">
-            <button v-if="!hasLogin" type="primary" class="primary" @tap="bindLogin">登录</button>
-            <button v-if="hasLogin" type="default" @tap="bindLogout">退出登录</button>
+    <view style="width:100%">
+        <center v-if="hasLogin"></center>
+        <view class="content" >
+            <view class="btn-row">
+                <button v-if="!hasLogin" type="primary" class="primary" @tap="bindLogin">登录</button>
+                <button v-if="hasLogin" type="default" @tap="bindLogout">退出登录</button>
+            </view>
         </view>
     </view>
 </template>
 
 <script>
-    import {
-        mapState,
-        mapMutations
-    } from 'vuex'
+    import center from './kitty-PersonalCenter/index'
+    import {mapMutations, mapState} from 'vuex'
 
     export default {
+        components: {center},
         computed: {
             ...mapState(['hasLogin', 'forcedLogin'])
         },
@@ -40,5 +42,4 @@
 </script>
 
 <style>
-
 </style>

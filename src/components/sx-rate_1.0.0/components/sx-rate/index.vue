@@ -1,22 +1,35 @@
 <template>
-    <view
-            class="rate-box"
-            :class="{animation}"
-            @touchmove="ontouchmove"
-            @touchend="touchMoving=false"
-    >
-        <view
-                v-for="(val,i) in list"
-                :key="val"
-                class="rate"
-                :style="{fontSize, paddingLeft: i!==0 ? rateMargin : 0, paddingRight: i<list.length-1 ? rateMargin : 0, color: val<=rateValue ? activeColor : defaultColor}"
-                :class="{scale: !disabled && val<=rateValue && animation && touchMoving}"
-                :data-val="val"
-                @click="onItemClick"
-        >
-            <text class="iconfont icon-star"/>
+    <view class="rate-container">
+        <view v-for="item in coaches" >
+            <view class="avatar-img">
+                <img :src="item.avatar" alt=""></view>
+            <view>{{item.name}}</view>
+            <view class="text">
+                <textarea style="border: 1px solid #ddd" name="" id="" cols="30" rows="10"></textarea>
+            </view>
+            <view
+                    class="rate-box"
+                    :class="{animation}"
+                    @touchmove="ontouchmove"
+                    @touchend="touchMoving=false"
+            >
+                <view
+                        v-for="(val,i) in list"
+                        :key="val"
+                        class="rate"
+                        :style="{fontSize, paddingLeft: i!==0 ? rateMargin : 0, paddingRight: i<list.length-1 ? rateMargin : 0, color: val<=rateValue ? activeColor : defaultColor}"
+                        :class="{scale: !disabled && val<=rateValue && animation && touchMoving}"
+                        :data-val="val"
+                        @click="onItemClick"
+                >
+                    <text class="iconfont icon-star"/>
+                </view>
+            </view>
         </view>
+        <navigator url=""></navigator>
+        <button>提交</button>
     </view>
+
 </template>
 
 <script>
@@ -69,7 +82,12 @@
         data() {
             return {
                 rateValue: 0,
-                touchMoving: false
+                touchMoving: false,
+                coaches: [
+                    {avatar: 'https://www.cctv.com/favicon.ico', name: '陈教练'},
+                    {avatar: 'https://www.baidu.com/favicon.ico', name: '宋教练'},
+                    {avatar: 'https://www.taobao.com/favicon.ico', name: '高教练'},
+                ]
             }
         },
         computed: {
@@ -157,10 +175,36 @@
 </style>
 
 <style scoped>
+    .avatar-img {
+        margin-top: 1rem
+    }
+
+    .avatar-img > img {
+        padding: .15rem;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        border: 1px solid #ddd;
+    }
+
+    .rate-container {
+        width: 99vw;
+        text-align: center;
+    }
+
+    .text {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .text > textarea {
+        width: 100%;
+    }
+
     .rate-box {
         min-height: 1.4em;
-        display: flex;
-        align-items: center;
+        margin: 1rem auto;
+        width: 100%;
     }
 
     .rate {
