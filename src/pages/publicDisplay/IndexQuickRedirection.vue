@@ -17,7 +17,7 @@
         data() {
             return {
                 iconArray: [
-                    {id: 1, href: "#iconxindetihui", comment: "心得体会", url: "../login/login"},
+                    {id: 1, href: "#iconxindetihui", comment: "心得体会", url: "../remark/remark"},
                     {id: 2, href: "#iconkebiao", comment: "查看课表", url: "../login/login"},
                     {id: 3, href: "#iconicon-test", comment: "项目选择", url: "../login/login"},
                     {id: 4, href: "#iconhebingxingzhuang", comment: "教练评分", url: "../coach/rateCoach"},
