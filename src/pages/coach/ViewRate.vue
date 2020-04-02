@@ -1,15 +1,15 @@
 <template>
     <!-- 查看评分-->
-    <ViewRate></ViewRate>
+    <ViewRateDetails></ViewRateDetails>
 </template>
 
 <script>
-    import ViewRate from '../../components/xiujun-evaluate/uni-evaluate'
+    import ViewRateDetails from '../../components/xiujun-evaluate/uni-evaluate'
 
     export default {
         name: "ViewRate",
         components: {
-            ViewRate
+            ViewRateDetails
         }
     }
 </script>

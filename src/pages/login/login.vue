@@ -114,7 +114,9 @@
                     return data.account === user.account && data.password === user.password;
                 });
                 if (validUser) {
+                    console.log(111)
                     this.toMain(this.account);
+                    console.log(222)
                 } else {
                     uni.showToast({
                         icon: 'none',
@@ -149,7 +151,7 @@
                  * 强制登录时使用reLaunch方式跳转过来
                  * 返回首页也使用reLaunch方式
                  */
-                if (this.forcedLogin) {
+                if (true) {
                     uni.reLaunch({
                         url: '../main/main',
                     });

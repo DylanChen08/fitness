@@ -71,7 +71,7 @@
                     <view>
                         <view>
                             <image :src="'../../static/kitty-PersonalCenter/' + item.icon +'.png'" mode=""
-                                   style="width: 80upx;height: 80upx;vertical-align: top;"></image>
+                                   style="width: 2rem;height: 2rem;vertical-align: top;"></image>
                         </view>
                         <view>{{ item.name }}</view>
                     </view>
@@ -161,10 +161,10 @@
             }
         },
         onLoad() {
-            this.loadData();
-            setTimeout(() => {
-                this.renderImage = true;
-            }, 300);
+            // this.loadData();
+            // setTimeout(() => {
+            //     this.renderImage = true;
+            // }, 300);
         },
         methods: {
             loadData(action = 'add') {
@@ -219,27 +219,27 @@
                     this.loadAll = false;
                 }
 
-                data.forEach(item => {
-                    this.productList.push(item);
-                });
+                // data.forEach(item => {
+                //     this.productList.push(item);
+                // });
 
 
             }
         },
         onPullDownRefresh() {
-            this.loadData('refresh');
-            // 实际开发中通常是网络请求，加载完数据后就停止。这里仅做演示，加延迟为了体现出效果。
-            setTimeout(() => {
-                uni.stopPullDownRefresh();
-            }, 2000);
+            // this.loadData('refresh');
+            // // 实际开发中通常是网络请求，加载完数据后就停止。这里仅做演示，加延迟为了体现出效果。
+            // setTimeout(() => {
+            //     uni.stopPullDownRefresh();
+            // }, 2000);
         },
         onReachBottom() {
-            if (this.productPage >= 3) { //数字仅为体现效果，实际开发中数据加载完成就停止
-                this.loadAll = true;
-            } else {
-                this.productPage++;
-                this.loadData();
-            }
+            // if (this.productPage >= 3) { //数字仅为体现效果，实际开发中数据加载完成就停止
+            //     this.loadAll = true;
+            // } else {
+            //     this.productPage++;
+            //     this.loadData();
+            // }
         }
     }
 </script>
@@ -251,7 +251,7 @@
     }
 
     .content {
-        padding: 0!important;
+        padding: 0 !important;
     }
 
     .header {

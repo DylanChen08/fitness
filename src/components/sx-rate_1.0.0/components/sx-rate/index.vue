@@ -1,6 +1,6 @@
 <template>
     <view class="rate-container">
-        <view v-for="item in coaches" >
+        <view v-for="item in coaches">
             <view class="avatar-img">
                 <img :src="item.avatar" alt=""></view>
             <view>{{item.name}}</view>
@@ -26,8 +26,10 @@
                 </view>
             </view>
         </view>
-        <navigator url=""></navigator>
-        <button>提交</button>
+        <navigator url="../coach/ViewRate">
+            <button>提交</button>
+        </navigator>
+
     </view>
 
 </template>
