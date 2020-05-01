@@ -173,7 +173,6 @@
             /* 获取列表数据 */
             getListData() {
                 new Promise((resolve, reject) => {
-                    /* 因无真实数据，当前方法模拟数据。正式项目中将此处替换为 数据请求即可 */
 					uni.showLoading({
 						title: '请稍后',
 						mask:true

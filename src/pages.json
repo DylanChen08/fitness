@@ -48,6 +48,12 @@
       "style": {
         "navigationBarTitleText": "热量查询"
       }
+    },
+    {
+      "path": "pages/remark/sendRemark",
+      "style": {
+        "navigationBarTitleText": "发表心得"
+      }
     },{
       "path": "pages/remark/remark",
       "style": {
