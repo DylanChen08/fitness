@@ -55,7 +55,13 @@
 					</view>
 				</view>
 			</block>
+			<view class="publish">
+				<svg class="icon" aria-hidden="true">
+					<use xlink:href="#iconjilu"></use>
+				</svg>
+			</view>
 		</view>
+
 		<view class="no-lists" v-else>暂无评论</view>
 	</view>
 </template>
@@ -101,11 +107,15 @@ export default {
 </script>
 <style scoped>
 @import './iconfont.css';
+
+
+
 .evaluateBox {
 	width: 100%;
 	margin-bottom: 120upx;
 }
 
+.publish{position: fixed ; display:flex;justify-content:center;align-items:center;bottom: 10%;right: 2% ;width: 5rem;height: 5rem; border:1px solid red;}
 .evaluate-header {
 	width: 100%;
 	height: 80upx;
