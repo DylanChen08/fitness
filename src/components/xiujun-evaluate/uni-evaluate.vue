@@ -1,27 +1,27 @@
 <!-- components/evaluate-components/index.wxml -->
 <template>
 	<view class="evaluateBox">
-		<view class="evaluate-header">
-			<view class="title">
-				<text v-if="isShowIcon" class="iconfont" style="color:#999">&#xe640;</text>
-				<text v-if="isShowTotal" style="margin-left: 10upx;">评价 ({{ listData.length }})</text>
-			</view>
-			<view class="total">
-				<view class="stars">
-					<view class="stars-normal">
-						<view class="box">
-							<block v-for="i in 5" :key="i"><text class="iconfont">&#xe870;</text></block>
-						</view>
-					</view>
-					<view class="stars-selected" :style="{ width: (rate / 5) * 100 + '%' }">
-						<view class="box">
-							<block v-for="j in 5" :key="j"><text class="iconfont">&#xe870;</text></block>
-						</view>
-					</view>
-				</view>
-				<text>{{ rate }}{{ (rate * 10) % 10 == 0 ? '.0' : '' }}</text>
-			</view>
-		</view>
+<!--		<view class="evaluate-header">-->
+<!--			<view class="title">-->
+<!--				<text v-if="isShowIcon" class="iconfont" style="color:#999">&#xe640;</text>-->
+<!--				<text v-if="isShowTotal" style="margin-left: 10upx;">评价 ({{ listData.length }})</text>-->
+<!--			</view>-->
+<!--			<view class="total">-->
+<!--				<view class="stars">-->
+<!--					<view class="stars-normal">-->
+<!--						<view class="box">-->
+<!--							<block v-for="i in 5" :key="i"><text class="iconfont">&#xe870;</text></block>-->
+<!--						</view>-->
+<!--					</view>-->
+<!--					<view class="stars-selected" :style="{ width: (rate / 5) * 100 + '%' }">-->
+<!--						<view class="box">-->
+<!--							<block v-for="j in 5" :key="j"><text class="iconfont">&#xe870;</text></block>-->
+<!--						</view>-->
+<!--					</view>-->
+<!--				</view>-->
+<!--				<text>{{ rate }}{{ (rate * 10) % 10 == 0 ? '.0' : '' }}</text>-->
+<!--			</view>-->
+<!--		</view>-->
 
 		<view class="lists" v-if="listData.length > 0">
 			<block v-for="(item, index_) in listData" :key="index_">

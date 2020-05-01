@@ -31,10 +31,7 @@
 
 <script>
     import service from '../../service.js';
-    import {
-        mapState,
-        mapMutations
-    } from 'vuex'
+    import {mapMutations, mapState} from 'vuex'
     import mInput from '../../components/m-input.vue'
 
     export default {
@@ -106,10 +103,17 @@
                  * 检测用户账号密码是否在已注册的用户列表中
                  * 实际开发中，使用 uni.request 将账号信息发送至服务端，客户端在回调函数中获取结果信息。
                  */
+
                 const data = {
                     account: this.account,
                     password: this.password
                 };
+                /**
+                 * 发送登录数据
+                 *
+                 */
+
+
                 const validUser = service.getUsers().some(function (user) {
                     return data.account === user.account && data.password === user.password;
                 });

@@ -1,12 +1,12 @@
 <template>
     <view class="content">
-        <view v-if="hasLogin" class="hello">
+        <view class="hello" v-if="hasLogin">
             <view class="title">
                 <el-alert
-                        title="登录成功"
-                        type="success"
                         center
-                        show-icon>
+                        show-icon
+                        title="登录成功"
+                        type="success">
                     欢迎您, {{userName}}
                 </el-alert>
                 <!--广告轮播图-->
@@ -17,7 +17,7 @@
                 <report></report>
             </view>
         </view>
-        <view v-if="!hasLogin" class="hello">
+        <view class="hello" v-if="!hasLogin">
             <view class="title">
                 您好 游客。
             </view>
@@ -26,7 +26,6 @@
                 <view>在 “我的” 中点击 “登录” 可以 “登录您的账户”</view>
             </view>
         </view>
-
     </view>
 </template>
 
@@ -34,9 +33,7 @@
     import Ads from '../../pages/publicDisplay/ads'
     import IndexQuickRedirection from "../publicDisplay/IndexQuickRedirection";
     import report from "../publicDisplay/report";
-    import {
-        mapState
-    } from 'vuex'
+    import {mapState} from 'vuex'
 
 
     export default {

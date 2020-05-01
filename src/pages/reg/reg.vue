@@ -21,7 +21,6 @@
 </template>
 
 <script>
-    import service from '../../service.js';
     import mInput from '../../components/m-input.vue';
 
     export default {
@@ -63,18 +62,31 @@
                     return;
                 }
 
-                const data = {
+                const dataSet = {
                     account: this.account,
                     password: this.password,
                     email: this.email
                 }
-                service.addUser(data);
+                console.log('data in reg', dataSet)
+                /**
+                 * 初始方案
+                 * 注册
+                 */
+                //service.addUser(data);
                 uni.showToast({
                     title: '注册成功'
                 });
-                uni.navigateBack({
-                    delta: 1
+                console.log(222)
+                uni.request({
+                    url: 'http://127.0.0.1:3000/common/register', //接口地址。
+                    method: "POST",
+                    header: {'Content-type': 'application/x-www-form-urlencoded'},
+                    data: dataSet,
+                    success: (res) => {
+                        console.log('res.data', res);
+                    }
                 });
+                console.log(322)
             }
         }
     }
