@@ -59,6 +59,11 @@
       "style": {
         "navigationBarTitleText": "心得分享"
       }
+    },{
+      "path": "pages/course/TimeTable",
+      "style": {
+        "navigationBarTitleText": "健身课表"
+      }
     }
   ],
   "tabBar": {

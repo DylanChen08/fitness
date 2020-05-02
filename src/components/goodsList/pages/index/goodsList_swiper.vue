@@ -302,6 +302,7 @@
             },
             /* 左侧导航点击 */
             leftTap(e) {
+                console.log(e)
                 let index = e.currentTarget.dataset.index;
                 this.leftIndex = Number(index);
             },

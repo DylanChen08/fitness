@@ -59,8 +59,8 @@
                     }, 2000);
                 }).then((res) => {
                     uni.hideLoading();
-                    uni.navigateTo({
-                        url: './remark'
+                    uni.switchTab({
+                        url: '../main/main'
                     });
                 });
             }
