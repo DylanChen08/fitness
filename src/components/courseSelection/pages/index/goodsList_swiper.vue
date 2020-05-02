@@ -46,113 +46,102 @@
             return {
                 scrollHeight: '500px',
                 leftArray: ['健美操', '有氧', '增肌', '减肥', '肉类'],
-                mainArray: [
+                mainArray:  [
                     {
-                        title: '淀粉类',
+                        title: '健美操',
                         list: [{
-                            title: '马铃薯',
-                            describe: '马铃薯（学名：Solanum tuberosum），属茄科茄属多年生草' +
-                                '本植物，块茎可供食用，是全球第四大重要的粮食作物',
-                            url: 'https://wx1.sinaimg.cn/mw690/82dbebd3gy1gdftvqfhsxj20ku0iymxp.jpg',
-                            calories: '77'
+                            title: '瑜珈健美操',
+                            describe: '任教：陈教练  课时：30',
+                            url: 'https://avatars3.githubusercontent.com/u/122434?s=460&u=6202deb7a394c25a15b19d420e5ea28914384ec4&v=4',
+                            calories: '￥3000'
                         }, {
-                            title: '米饭',
-                            describe: '大米（Rice），是稻谷经清理、砻谷、碾米、成品整理等工' +
-                                '序后制成的成品，大米含有稻米中近64%的营养物质和90%以上的人' +
-                                '体所需的营养元素',
-                            url: 'https://wx3.sinaimg.cn/small/82dbebd3gy1gdfum0dngqj2046046wea.jpg',
-                            calories: '40'
+                            title: '舍宾健美操',
+                            describe: '任教：陈教练  课时：40',
+                            url: 'https://avatars0.githubusercontent.com/u/14037268?s=460&u=141e9e5c5e86a2cf652ca9a3b0271f06ea0e4488&v=4',
+                            calories: '￥4000'
                         }, {
-                            title: '山药',
-                            describe: '山药' + '是薯蓣科薯蓣属植物，缠绕草质藤本。块茎长圆柱形，' +
-                                '垂直生长。茎通常带紫红色，右旋，无毛。单叶，在茎下' +
-                                '部的互生，中部以上的对生。雄花序为穗状花序，长2-8厘米，',
-                            url: 'https://wx3.sinaimg.cn/small/82dbebd3gy1gdfum0dngqj2046046wea.jpg',
-                            calories: '60'
+                            title: '卡兰体形操',
+                            describe: '任教：陈教练  课时：60',
+                            url: 'https://avatars2.githubusercontent.com/u/1410106?s=400&u=33e416fb9551313cab3d4e9a87fcf073211ab28a&v=4',
+                            calories: '￥5000'
                         },],
 
                     },
                     {
-                        title: '水果',
+                        title: '有氧',
                         list: [{
-                            title: '苹果',
-                            describe: '苹果是蔷薇科苹果亚科苹果属植物，其树为落叶乔木。苹果营' +
-                                '养价值很高，富含矿物质和维生素，含钙量丰富，有助于代谢掉体内多余盐分' +
-                                '，苹果酸可代谢热量',
-                            url: 'https://wx3.sinaimg.cn/mw690/82dbebd3gy1gdfutj9wptj20460460t4.jpg',
-                            calories: '12'
+                            title: '动感单车',
+                            describe: '任教：黄教练  课时：25',
+                            url: 'https://avatars2.githubusercontent.com/u/656531?s=180&u=14dd32d36d92e3387c3e5c82459275cff3259b37&v=4',
+                            calories: '2500'
                         }, {
-                            title: '芒果',
-                            describe: '芒果是杧果（中国植物志）的通俗名（拉丁学名：Mangifera indic' +
-                                'a L.），芒果是一种原产印度的漆树科常绿大乔木，叶革质，互生；' +
-                                '花小，杂性，黄色或淡黄色',
-                            url: 'https://wx3.sinaimg.cn/mw690/82dbebd3gy1gdfutf7eq5j2046046gm8.jpg',
-                            calories: '34'
+                            title: '有氧慢跑',
+                            describe: '任教：林教练  课时：30',
+                            url: 'https://avatars3.githubusercontent.com/u/7763181?s=180&u=3ac7c4efb29e5de084e0c46bcabaf9ef9025cc10&v=4',
+                            calories: '3000'
                         }, {
-                            title: '橙子',
-                            describe: '橙子（学名：Citrus sinensis）是芸香科柑橘属植物' +
-                                '橙树的果实，亦称为柳橙、甜橙、黄果、金环、柳丁。橙是一' +
-                                '种柑果，它是种植了很久的混合品种',
-                            url: 'https://wx3.sinaimg.cn/mw690/82dbebd3gy1gdfutf7eq5j2046046gm8.jpg',
-                            calories: '25'
+                            title: '有氧呼啦圈',
+                            describe: '任教：伍雪莹 课时：30',
+                            url: 'https://avatars1.githubusercontent.com/u/16515708?s=460&u=1f6da48b5370e0dac72476be4dd37bd965a185a6&v=4',
+                            calories: '2500'
                         },],
 
                     },
                     {
-                        title: '奶制品',
+                        title: '增肌',
                         list: [{
-                            title: '全脂牛奶',
-                            describe: '牛奶是最古老的天然饮料之一，被誉为白色血液。牛奶中含有丰富的蛋白质、脂肪、维生素和矿物质等营养物质',
-                            url: 'https://wx4.sinaimg.cn/mw690/82dbebd3gy1gdfv3xszi5j2046046gm2.jpg',
-                            calories: '80'
+                            title: '组合运动',
+                            describe: '任教：伍教练 课时：30',
+                            url: 'https://avatars2.githubusercontent.com/u/1410106?s=400&u=33e416fb9551313cab3d4e9a87fcf073211ab28a&v=4',
+                            calories: '8000'
                         }, {
-                            title: '脱脂牛奶',
-                            describe: '牛奶是最古老的天然饮料之一，被誉为白色血液。牛奶中含有丰富的蛋白质、脂肪、维生素和矿物质等营养物质',
-                            url: 'https://wx4.sinaimg.cn/mw690/82dbebd3gy1gdfv3xszi5j2046046gm2.jpg',
-                            calories: '60'
+                            title: '器械增强集训',
+                            describe: '任教：伍教练 课时：50',
+                            url: 'https://avatars3.githubusercontent.com/u/7763181?s=180&u=3ac7c4efb29e5de084e0c46bcabaf9ef9025cc10&v=4',
+                            calories: '6000'
                         }, {
-                            title: '酸牛奶',
-                            describe: '牛奶是最古老的天然饮料之一，被誉为白色血液。牛奶中含有丰富的蛋白质、脂肪、维生素和矿物质等营养物质',
-                            url: 'https://wx4.sinaimg.cn/mw690/82dbebd3gy1gdfv3xszi5j2046046gm2.jpg',
-                            calories: '78'
+                            title: '每周三练',
+                            describe: '任教：伍教练 课时：80',
+                            url: 'https://avatars2.githubusercontent.com/u/656531?s=180&u=14dd32d36d92e3387c3e5c82459275cff3259b37&v=4',
+                            calories: '7800'
                         },],
 
                     },
                     {
-                        title: '甜点',
+                        title: '减肥',
                         list: [{
-                            title: 'Pascual 牛奶巧克力布丁（甜点心）',
-                            describe: '一种热量较低、高水分的食品，减肥时适量食用',
-                            url: 'https://wx3.sinaimg.cn/mw690/82dbebd3gy1gdfvaknx3gj2046048dfr.jpg',
-                            calories: '100'
+                            title: '组合运动',
+                            describe: '任教：伍教练 课时：30',
+                            url: 'https://avatars2.githubusercontent.com/u/1410106?s=400&u=33e416fb9551313cab3d4e9a87fcf073211ab28a&v=4',
+                            calories: '8000'
                         }, {
-                            title: '可颂食品 甜点',
-                            describe: '该食物含有较多的脂肪，不建议食用。',
-                            url: 'https://wx3.sinaimg.cn/mw690/82dbebd3gy1gdfva8rf6cj2035046746.jpg',
-                            calories: '437'
+                            title: '器械增强集训',
+                            describe: '任教：伍教练 课时：50',
+                            url: 'https://avatars3.githubusercontent.com/u/7763181?s=180&u=3ac7c4efb29e5de084e0c46bcabaf9ef9025cc10&v=4',
+                            calories: '6000'
                         }, {
-                            title: 'Al Mealim阿拉伯甜点',
-                            describe: '一种高脂肪、高碳水化合物、高纤维的食品，减肥时不宜多食',
-                            url: 'https://wx3.sinaimg.cn/mw690/82dbebd3gy1gdfvaf8cslj2046035t9l.jpg',
-                            calories: '536'
+                            title: '每周三练',
+                            describe: '任教：伍教练 课时：80',
+                            url: 'https://avatars2.githubusercontent.com/u/656531?s=180&u=14dd32d36d92e3387c3e5c82459275cff3259b37&v=4',
+                            calories: '7800'
                         },],
 
                     },
                     {
-                        title: '肉类',
+                        title: '保健',
                         list: [{
-                            title: '猪肉',
-                            describe: '一种食用肉',
-                            url: 'https://wx1.sinaimg.cn/mw690/82dbebd3gy1gdfvetew3sj2046046wew.jpg',
-                            calories: '133'
+                            title: '组合运动',
+                            describe: '任教：伍教练 课时：30',
+                            url: 'https://avatars2.githubusercontent.com/u/1410106?s=400&u=33e416fb9551313cab3d4e9a87fcf073211ab28a&v=4',
+                            calories: '8000'
                         }, {
-                            title: '牛肉',
-                            describe: '一种食用肉',
-                            url: 'https://wx4.sinaimg.cn/mw690/82dbebd3gy1gdfvgonq3gj2046046q2s.jpg',
-                            calories: '145'
+                            title: '器械增强集训',
+                            describe: '任教：伍教练 课时：50',
+                            url: 'https://avatars3.githubusercontent.com/u/7763181?s=180&u=3ac7c4efb29e5de084e0c46bcabaf9ef9025cc10&v=4',
+                            calories: '6000'
                         }],
 
-                    },
+                    }
 
                 ],
                 leftIndex: 0
@@ -195,7 +184,7 @@
 								}, {
 									title: '卡兰体形操',
 									describe: '任教：陈教练  课时：60',
-									url: 'https://wx3.sinaimg.cn/small/82dbebd3gy1gdfum0dngqj2046046wea.jpg',
+									url: 'https://avatars2.githubusercontent.com/u/1410106?s=400&u=33e416fb9551313cab3d4e9a87fcf073211ab28a&v=4',
 									calories: '￥5000'
 								},],
 
@@ -203,84 +192,78 @@
 							{
 								title: '有氧',
 								list: [{
-									title: '苹果',
-									describe: '苹果是蔷薇科苹果亚科苹果属植物，其树为落叶乔木。苹果营' +
-											'养价值很高，富含矿物质和维生素，含钙量丰富，有助于代谢掉体内多余盐分' +
-											'，苹果酸可代谢热量',
-									url: 'https://wx3.sinaimg.cn/mw690/82dbebd3gy1gdfutj9wptj20460460t4.jpg',
-									calories: '12'
+									title: '动感单车',
+									describe: '任教：黄教练  课时：25',
+									url: 'https://avatars2.githubusercontent.com/u/656531?s=180&u=14dd32d36d92e3387c3e5c82459275cff3259b37&v=4',
+									calories: '2500'
 								}, {
-									title: '芒果',
-									describe: '芒果是杧果（中国植物志）的通俗名（拉丁学名：Mangifera indic' +
-											'a L.），芒果是一种原产印度的漆树科常绿大乔木，叶革质，互生；' +
-											'花小，杂性，黄色或淡黄色',
-									url: 'https://wx3.sinaimg.cn/mw690/82dbebd3gy1gdfutf7eq5j2046046gm8.jpg',
-									calories: '34'
+									title: '有氧慢跑',
+									describe: '任教：林教练  课时：30',
+									url: 'https://avatars3.githubusercontent.com/u/7763181?s=180&u=3ac7c4efb29e5de084e0c46bcabaf9ef9025cc10&v=4',
+									calories: '3000'
 								}, {
-									title: '橙子',
-									describe: '橙子（学名：Citrus sinensis）是芸香科柑橘属植物' +
-											'橙树的果实，亦称为柳橙、甜橙、黄果、金环、柳丁。橙是一' +
-											'种柑果，它是种植了很久的混合品种',
-									url: 'https://wx3.sinaimg.cn/mw690/82dbebd3gy1gdfutf7eq5j2046046gm8.jpg',
-									calories: '25'
+									title: '有氧呼啦圈',
+									describe: '任教：伍雪莹 课时：30',
+									url: 'https://avatars1.githubusercontent.com/u/16515708?s=460&u=1f6da48b5370e0dac72476be4dd37bd965a185a6&v=4',
+									calories: '2500'
 								},],
 
 							},
 							{
-								title: '奶制品',
+								title: '增肌',
 								list: [{
-									title: '全脂牛奶',
-									describe: '牛奶是最古老的天然饮料之一，被誉为白色血液。牛奶中含有丰富的蛋白质、脂肪、维生素和矿物质等营养物质',
-									url: 'https://wx4.sinaimg.cn/mw690/82dbebd3gy1gdfv3xszi5j2046046gm2.jpg',
-									calories: '80'
+									title: '组合运动',
+									describe: '任教：伍教练 课时：30',
+									url: 'https://avatars2.githubusercontent.com/u/1410106?s=400&u=33e416fb9551313cab3d4e9a87fcf073211ab28a&v=4',
+									calories: '8000'
 								}, {
-									title: '脱脂牛奶',
-									describe: '牛奶是最古老的天然饮料之一，被誉为白色血液。牛奶中含有丰富的蛋白质、脂肪、维生素和矿物质等营养物质',
-									url: 'https://wx4.sinaimg.cn/mw690/82dbebd3gy1gdfv3xszi5j2046046gm2.jpg',
-									calories: '60'
+									title: '器械增强集训',
+									describe: '任教：伍教练 课时：50',
+									url: 'https://avatars3.githubusercontent.com/u/7763181?s=180&u=3ac7c4efb29e5de084e0c46bcabaf9ef9025cc10&v=4',
+									calories: '6000'
 								}, {
-									title: '酸牛奶',
-									describe: '牛奶是最古老的天然饮料之一，被誉为白色血液。牛奶中含有丰富的蛋白质、脂肪、维生素和矿物质等营养物质',
-									url: 'https://wx4.sinaimg.cn/mw690/82dbebd3gy1gdfv3xszi5j2046046gm2.jpg',
-									calories: '78'
+									title: '每周三练',
+									describe: '任教：伍教练 课时：80',
+									url: 'https://avatars2.githubusercontent.com/u/656531?s=180&u=14dd32d36d92e3387c3e5c82459275cff3259b37&v=4',
+									calories: '7800'
 								},],
 
 							},
-							{
-								title: '甜点',
-								list: [{
-									title: 'Pascual 牛奶巧克力布丁（甜点心）',
-									describe: '一种热量较低、高水分的食品，减肥时适量食用',
-									url: 'https://wx3.sinaimg.cn/mw690/82dbebd3gy1gdfvaknx3gj2046048dfr.jpg',
-									calories: '100'
-								}, {
-									title: '可颂食品 甜点',
-									describe: '该食物含有较多的脂肪，不建议食用。',
-									url: 'https://wx3.sinaimg.cn/mw690/82dbebd3gy1gdfva8rf6cj2035046746.jpg',
-									calories: '437'
-								}, {
-									title: 'Al Mealim阿拉伯甜点',
-									describe: '一种高脂肪、高碳水化合物、高纤维的食品，减肥时不宜多食',
-									url: 'https://wx3.sinaimg.cn/mw690/82dbebd3gy1gdfvaf8cslj2046035t9l.jpg',
-									calories: '536'
-								},],
+                            {
+                                title: '减肥',
+                                list: [{
+                                    title: '组合运动',
+                                    describe: '任教：伍教练 课时：30',
+                                    url: 'https://avatars2.githubusercontent.com/u/1410106?s=400&u=33e416fb9551313cab3d4e9a87fcf073211ab28a&v=4',
+                                    calories: '8000'
+                                }, {
+                                    title: '器械增强集训',
+                                    describe: '任教：伍教练 课时：50',
+                                    url: 'https://avatars3.githubusercontent.com/u/7763181?s=180&u=3ac7c4efb29e5de084e0c46bcabaf9ef9025cc10&v=4',
+                                    calories: '6000'
+                                }, {
+                                    title: '每周三练',
+                                    describe: '任教：伍教练 课时：80',
+                                    url: 'https://avatars2.githubusercontent.com/u/656531?s=180&u=14dd32d36d92e3387c3e5c82459275cff3259b37&v=4',
+                                    calories: '7800'
+                                },],
 
-							},
-							{
-								title: '肉类',
-								list: [{
-									title: '猪肉',
-									describe: '一种食用肉',
-									url: 'https://wx1.sinaimg.cn/mw690/82dbebd3gy1gdfvetew3sj2046046wew.jpg',
-									calories: '133'
-								}, {
-									title: '牛肉',
-									describe: '一种食用肉',
-									url: 'https://wx4.sinaimg.cn/mw690/82dbebd3gy1gdfvgonq3gj2046046q2s.jpg',
-									calories: '145'
-								}],
+                            },
+                            {
+                                title: '保健',
+                                list: [{
+                                    title: '组合运动',
+                                    describe: '任教：伍教练 课时：30',
+                                    url: 'https://avatars2.githubusercontent.com/u/1410106?s=400&u=33e416fb9551313cab3d4e9a87fcf073211ab28a&v=4',
+                                    calories: '8000'
+                                }, {
+                                    title: '器械增强集训',
+                                    describe: '任教：伍教练 课时：50',
+                                    url: 'https://avatars3.githubusercontent.com/u/7763181?s=180&u=3ac7c4efb29e5de084e0c46bcabaf9ef9025cc10&v=4',
+                                    calories: '6000'
+                                }],
 
-							},
+                            }
 
 						]
 						resolve({leftArray,mainArray})

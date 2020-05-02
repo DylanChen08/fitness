@@ -4,8 +4,8 @@
             <view class="avatar-img">
                 <img :src="item.avatar" alt=""></view>
             <view>{{item.name}}</view>
-            <view class="text">
-                <textarea style="border: 1px solid #ddd" name="" id="" cols="30" rows="10"></textarea>
+            <view class="text" style="width: 80%;">
+                <textarea style="border: 1px solid #ddd" name="" id="" cols="3" rows="1"></textarea>
             </view>
             <view
                     class="rate-box"
@@ -26,9 +26,7 @@
                 </view>
             </view>
         </view>
-        <navigator url="../coach/ViewRate">
-            <button>提交</button>
-        </navigator>
+            <button @click="submit">提交</button>
 
     </view>
 
@@ -86,9 +84,9 @@
                 rateValue: 0,
                 touchMoving: false,
                 coaches: [
-                    {avatar: 'https://www.cctv.com/favicon.ico', name: '陈教练'},
-                    {avatar: 'https://www.baidu.com/favicon.ico', name: '宋教练'},
-                    {avatar: 'https://www.taobao.com/favicon.ico', name: '高教练'},
+                    {avatar: 'https://avatars3.githubusercontent.com/u/122434?s=460&u=6202deb7a394c25a15b19d420e5ea28914384ec4&v=4', name: '陈教练'},
+                    {avatar: 'https://avatars0.githubusercontent.com/u/14037268?s=460&u=141e9e5c5e86a2cf652ca9a3b0271f06ea0e4488&v=4', name: '宋教练'},
+                    {avatar: 'https://avatars2.githubusercontent.com/u/1410106?s=400&u=33e416fb9551313cab3d4e9a87fcf073211ab28a&v=4', name: '高教练'},
                 ]
             }
         },
@@ -167,6 +165,17 @@
                     this.$emit('update:value', val);
                     this.$emit('change', val)
                 }
+            },
+            submit(){
+                uni.showToast({
+                    icon:'success',
+                    title:'提交成功'
+                })
+                setTimeout(()=>{
+                    uni.navigateTo({
+                        url: '../coach/ViewRate'
+                    });
+                },3000)
             }
         },
     }
@@ -177,6 +186,12 @@
 </style>
 
 <style scoped>
+    .rate-container{
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
+    }
     .avatar-img {
         margin-top: 1rem
     }
