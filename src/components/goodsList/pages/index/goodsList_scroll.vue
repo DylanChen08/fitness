@@ -59,9 +59,7 @@
         methods: {
             /* 获取列表数据 */
             getListData() {
-                // Promise 为 ES6 新增的API ，有疑问的请自行学习该方法的使用。
                 new Promise((resolve, reject) => {
-                    /* 因无真实数据，当前方法模拟数据。正式项目中将此处替换为 数据请求即可 */
                     uni.showLoading();
                     setTimeout(() => {
                         let [left, main] = [[], []];
@@ -152,19 +150,19 @@
         justify-content: flex-start;
         align-items: flex-start;
         align-content: flex-start;
-        font-size: 28 rpx;
+        font-size: 28rpx;
     }
 
     .left {
-        width: 200 rpx;
+        width: 200rpx;
         background-color: #f6f6f6;
-        line-height: 80 rpx;
+        line-height: 80rpx;
         box-sizing: border-box;
-        font-size: 32 rpx;
+        font-size: 32rpx;
     }
 
     .item {
-        padding-left: 20 rpx;
+        padding-left: 20rpx;
         position: relative
     }
 
@@ -177,7 +175,7 @@
         display: block;
         height: 0;
         border-top: #d6d6d6 solid 1px;
-        width: 620 upx;
+        width: 620upx;
         position: absolute;
         top: -1px;
         right: 0;
@@ -191,7 +189,7 @@
 
     .main {
         background-color: #fff;
-        padding-left: 20 rpx;
+        padding-left: 20rpx;
         width: 0;
         flex-grow: 1;
         box-sizing: border-box;

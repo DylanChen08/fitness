@@ -30,7 +30,7 @@
             },
             send_to_server(){
                 uni.request({
-                    url: 'https://127.0.0.1:3000/request', //仅为示例，并非真实接口地址。
+                    url: 'https://127.0.0.1:3000/request',
                     data: {
                         text: 'uni.request'
                     },

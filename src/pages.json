@@ -64,6 +64,11 @@
       "style": {
         "navigationBarTitleText": "健身课表"
       }
+    },{
+      "path": "pages/course/Selection",
+      "style": {
+        "navigationBarTitleText": "项目选择"
+      }
     }
   ],
   "tabBar": {

@@ -12,7 +12,7 @@
         },
         methods: {
             initTable() {
-                let _this = this
+                let _this = this;
                 const courseList = ['瑜伽', '健美操', '跑步集训', '饮食课堂', '上身强化训练',
                     '动感单车', '方克', '搏击健美操', '健身球', '莱美国际健身体系'];
                 const generated = [];
