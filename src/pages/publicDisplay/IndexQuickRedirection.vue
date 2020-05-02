@@ -21,7 +21,7 @@
                     {id: 2, href: "#iconkebiao", comment: "查看课表", url: "../course/TimeTable"},
                     {id: 3, href: "#iconicon-test", comment: "项目选择", url: "../course/Selection"},
                     {id: 4, href: "#iconhebingxingzhuang", comment: "教练评分", url: "../coach/rateCoach"},
-                    {id: 5, href: "#iconjiaolian", comment: "教练选择", url: "../login/login"},
+                    {id: 5, href: "#iconjiaolian", comment: "教练选择", url: "../coach/SelectCoach"},
                     {id: 6, href: "#iconyinshi-copy", comment: "饮食百科", url: "../consultant/consult"}
                 ]
             }

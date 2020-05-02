@@ -18,21 +18,21 @@
             </view>
         </view>
         <view class="card-item">
-            <view class="card-item-content uni-flex uni-row">
-                <view v-for="( item, index ) in orderList" :key="index">
-                    <view class="icon-wrap">
-                        <image :src="'../../static/kitty-PersonalCenter/' + item.icon + '.png'" mode=""></image>
-                        <view class="badge" v-if="item.padge > 0">{{ item.padge }}</view>
-                    </view>
-                    <view>{{ item.text }}</view>
-                </view>
-                <view>
-                    <view class="icon-wrap">
-                        <image src="../../static/kitty-PersonalCenter/dingdan.png" mode=""></image>
-                    </view>
-                    <view>我的订单</view>
-                </view>
-            </view>
+<!--            <view class="card-item-content uni-flex uni-row">-->
+<!--                <view v-for="( item, index ) in orderList" :key="index">-->
+<!--                    <view class="icon-wrap">-->
+<!--                        <image :src="'../../static/kitty-PersonalCenter/' + item.icon + '.png'" mode=""></image>-->
+<!--                        <view class="badge" v-if="item.padge > 0">{{ item.padge }}</view>-->
+<!--                    </view>-->
+<!--                    <view>{{ item.text }}</view>-->
+<!--                </view>-->
+<!--                <view>-->
+<!--                    <view class="icon-wrap">-->
+<!--                        <image src="../../static/kitty-PersonalCenter/dingdan.png" mode=""></image>-->
+<!--                    </view>-->
+<!--                    <view>我的订单</view>-->
+<!--                </view>-->
+<!--            </view>-->
         </view>
         <view class="card-item">
             <view class="card-item-content uni-flex uni-row">
@@ -40,32 +40,32 @@
                     <view class="text-bold">{{ item.count }}</view>
                     <view>{{ item.text }}</view>
                 </view>
-                <view>
-                    <view class="icon-wrap">
-                        <image src="../../static/kitty-PersonalCenter/kabao.png" mode=""></image>
-                    </view>
-                    <view>我的钱包</view>
-                </view>
+<!--                <view>-->
+<!--                    <view class="icon-wrap">-->
+<!--                        <image src="../../static/kitty-PersonalCenter/kabao.png" mode=""></image>-->
+<!--                    </view>-->
+<!--                    <view>我的钱包</view>-->
+<!--                </view>-->
             </view>
         </view>
         <view class="card-item">
-            <view class="card-item-content uni-flex uni-row">
-                <view v-for="( item, index ) in viewList" :key="index">
-                    <view class="text-bold">{{ item.count }}</view>
-                    <view>{{ item.text }}</view>
-                </view>
-            </view>
-            <view class="card-item-content uni-flex uni-row">
-                <view v-for="( item, index ) in serviceList" :key="index">
-                    <view class="icon-wrap">
-                        <image :src="'../../static/kitty-PersonalCenter/' + item.icon + '.png'" mode=""></image>
-                    </view>
-                    <view>{{ item.text }}</view>
-                </view>
-            </view>
+<!--            <view class="card-item-content uni-flex uni-row">-->
+<!--                <view v-for="( item, index ) in viewList" :key="index">-->
+<!--                    <view class="text-bold">{{ item.count }}</view>-->
+<!--                    <view>{{ item.text }}</view>-->
+<!--                </view>-->
+<!--            </view>-->
+<!--            <view class="card-item-content uni-flex uni-row">-->
+<!--                <view v-for="( item, index ) in serviceList" :key="index">-->
+<!--                    <view class="icon-wrap">-->
+<!--                        <image :src="'../../static/kitty-PersonalCenter/' + item.icon + '.png'" mode=""></image>-->
+<!--                    </view>-->
+<!--                    <view>{{ item.text }}</view>-->
+<!--                </view>-->
+<!--            </view>-->
         </view>
         <view class="card-item">
-            <view class="card-item-header">工具与服务</view>
+            <view class="card-item-header">资讯中心</view>
             <view class="card-item-content">
                 <view class="card-item-block uni-flex uni-row" v-for="( item, index ) in otherServices" :key="index">
                     <view>
@@ -83,11 +83,11 @@
                 </view>
             </view>
         </view>
-        <view class="suggestion-title uni-flex uni-row">
-            <view></view>
-            <view>为你推荐</view>
-            <view></view>
-        </view>
+<!--        <view class="suggestion-title uni-flex uni-row">-->
+<!--            <view></view>-->
+<!--            <view>为你推荐</view>-->
+<!--            <view></view>-->
+<!--        </view>-->
         <view class="product-list-wrap">
             <view class="uni-product-list">
                 <view class="uni-product" v-for="(product,index) in productList" :key="index">
@@ -113,8 +113,8 @@
             return {
                 user: {
                     profile: 'https://via.placeholder.com/70/ffffff/808080',
-                    nickname: 'Kitty Wei',
-                    level: '钻石',
+                    nickname: '陈先生',
+                    level: '钻石会员',
                     tags: ['已实名', '查看信用']
                 },
                 orderList: [
@@ -124,9 +124,9 @@
                     {icon: 'anquan', text: '退换/售后', padge: 0}
                 ],
                 pocketList: [
-                    {count: 1588, text: '虚拟币'},
+                    {count: 1588, text: '积分'},
                     {count: 70, text: '优惠券'},
-                    {count: 100.9, text: '白条'},
+                    {count: 100.9, text: '信用'},
                     {count: 99, text: '礼品卡'}
                 ],
                 viewList: [
@@ -309,7 +309,6 @@
         border-radius: 0.2rem;
         margin: 0 0.3rem 0.3rem 0.2rem;
         text-align: center;
-        border: 1px solid red;
     }
 
     .text-bold {
@@ -358,7 +357,6 @@
 
     .card-item-block-title, .card-item-block-disc {
         padding: 0 0.55rem;
-        border: 1px solid red
     }
 
     .suggestion-title {

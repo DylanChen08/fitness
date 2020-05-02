@@ -69,6 +69,11 @@
       "style": {
         "navigationBarTitleText": "项目选择"
       }
+    },{
+      "path": "pages/coach/SelectCoach",
+      "style": {
+        "navigationBarTitleText": "教练选择"
+      }
     }
   ],
   "tabBar": {
@@ -83,7 +88,7 @@
         "selectedIconPath": "static/img/homeHL.png"
       },
       {
-        "pagePath": "",
+        "pagePath": "pages/course/Selection",
         "text": "健身",
         "iconPath": "static/img/user.png",
         "selectedIconPath": "static/img/userHL.png"
