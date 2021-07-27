@@ -1,15 +1,15 @@
 <template>
-    <Remark></Remark>
+  <Remark></Remark>
 </template>
 
 
 <script>
-    import Remark from '../coach/ViewRate'
+import Remark from '../coach/ViewRate'
 
-    export default {
-        name: "remark",
-        components: {Remark}
-    }
+export default {
+  name: "remark",
+  components: {Remark}
+}
 </script>
 
 <style scoped>

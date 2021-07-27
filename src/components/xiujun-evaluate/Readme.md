@@ -4,7 +4,7 @@
 
 **使用方式：**
 
-下载组件，在 ``script`` 中引用组件 
+下载组件，在 ``script`` 中引用组件
 
 ```javascript
 import uniEvaluate from '../../components/xiujun-evaluate/uni-evaluate.vue';
@@ -19,9 +19,9 @@ export default {
 <uni-evaluate :list-data="列表数据" :rate="总评分"/>
 ```
 
-**组件属性说明：**	
+**组件属性说明：**
 
-|属性名|类型|默认值	|说明|
+|属性名|类型|默认值    |说明|
 |---|----|---|---|
 |listData|Array|-|评价列表数据|
 |rate|Number|-|总评分|

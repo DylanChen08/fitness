@@ -1,17 +1,17 @@
 <template>
-    <!-- 查看评分-->
-    <ViewRateDetails></ViewRateDetails>
+  <!-- 查看评分-->
+  <ViewRateDetails></ViewRateDetails>
 </template>
 
 <script>
-    import ViewRateDetails from '../../components/xiujun-evaluate/uni-evaluate'
+import ViewRateDetails from '../../components/xiujun-evaluate/uni-evaluate'
 
-    export default {
-        name: "ViewRate",
-        components: {
-            ViewRateDetails
-        }
-    }
+export default {
+  name: "ViewRate",
+  components: {
+    ViewRateDetails
+  }
+}
 </script>
 
 <style scoped>

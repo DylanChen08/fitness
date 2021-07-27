@@ -54,22 +54,26 @@
       "style": {
         "navigationBarTitleText": "发表心得"
       }
-    },{
+    },
+    {
       "path": "pages/remark/remark",
       "style": {
         "navigationBarTitleText": "心得分享"
       }
-    },{
+    },
+    {
       "path": "pages/course/TimeTable",
       "style": {
         "navigationBarTitleText": "健身课表"
       }
-    },{
+    },
+    {
       "path": "pages/course/Selection",
       "style": {
         "navigationBarTitleText": "项目选择"
       }
-    },{
+    },
+    {
       "path": "pages/coach/SelectCoach",
       "style": {
         "navigationBarTitleText": "教练选择"
