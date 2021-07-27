@@ -8,6 +8,7 @@
 
 ```javascript
 import uniEvaluate from '../../components/xiujun-evaluate/uni-evaluate.vue';
+
 export default {
     components: {uniEvaluate}
 }
@@ -16,6 +17,7 @@ export default {
 用法
 
 ```html
+
 <uni-evaluate :list-data="列表数据" :rate="总评分"/>
 ```
 
