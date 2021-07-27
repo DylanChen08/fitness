@@ -1,0 +1,113 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页,
+    {
+      "path": "pages/main/main",
+      "style": {
+        "navigationBarTitleText": "Fitness"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/reg/reg",
+      "style": {
+        "navigationBarTitleText": "注册"
+      }
+    },
+    {
+      "path": "pages/pwd/pwd",
+      "style": {
+        "navigationBarTitleText": "找回密码"
+      }
+    },
+    {
+      "path": "pages/user/user",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/coach/rateCoach",
+      "style": {
+        "navigationBarTitleText": "评分"
+      }
+    },
+    {
+      "path": "pages/coach/ViewRate",
+      "style": {
+        "navigationBarTitleText": "评分列表"
+      }
+    },
+    {
+      "path": "pages/consultant/consult",
+      "style": {
+        "navigationBarTitleText": "热量查询"
+      }
+    },
+    {
+      "path": "pages/remark/sendRemark",
+      "style": {
+        "navigationBarTitleText": "发表心得"
+      }
+    },
+    {
+      "path": "pages/remark/remark",
+      "style": {
+        "navigationBarTitleText": "心得分享"
+      }
+    },
+    {
+      "path": "pages/course/TimeTable",
+      "style": {
+        "navigationBarTitleText": "健身课表"
+      }
+    },
+    {
+      "path": "pages/course/Selection",
+      "style": {
+        "navigationBarTitleText": "项目选择"
+      }
+    },
+    {
+      "path": "pages/coach/SelectCoach",
+      "style": {
+        "navigationBarTitleText": "教练选择"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#0faeff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "static/img/home.png",
+        "selectedIconPath": "static/img/homeHL.png"
+      },
+      {
+        "pagePath": "pages/course/Selection",
+        "text": "健身",
+        "iconPath": "static/img/user.png",
+        "selectedIconPath": "static/img/userHL.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/img/user.png",
+        "selectedIconPath": "static/img/userHL.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#a498ff",
+    "backgroundColor": "#fbf9fe"
+  }
+}
