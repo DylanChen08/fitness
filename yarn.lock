@@ -9901,6 +9901,11 @@ timers-browserify@^2.0.4:
   dependencies:
     setimmediate "^1.0.4"
 
+timetables@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.nlark.com/timetables/download/timetables-1.1.0.tgz#310ed2c50e6bcb409ee07a4bb374adafe92612ec"
+  integrity sha1-MQ7SxQ5ry0Ce4HpLs3Str+kmEuw=
+
 timsort@^0.3.0:
   version "0.3.0"
   resolved "https://registry.npm.taobao.org/timsort/download/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
